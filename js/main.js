@@ -15,8 +15,8 @@ const pipeBottom = new Image();
 const fly = new Audio();
 const score_audio = new Audio();
 
-fly.src = '/audio/fly.mp3';
-score_audio.src = '/audio/score.mp3';
+fly.src = 'audio/fly.mp3';
+score_audio.src = 'audio/score.mp3';
 
 
 const gap = 90;
@@ -41,11 +41,11 @@ document.addEventListener('keydown', () => {
     fly.play();
 });
 
-bird.src = '/img/bird.png';
-bg.src = '/img/bg.png';
-floor.src = '/img/floor.png';
-pipeTop.src = '/img/pipe_top.png';
-pipeBottom.src = '/img/pipe_bottom.png';
+bird.src = 'img/bird.png';
+bg.src = 'img/bg.png';
+floor.src = 'img/floor.png';
+pipeTop.src = 'img/pipe_top.png';
+pipeBottom.src = 'img/pipe_bottom.png';
 
 
 const draw = () => {
